@@ -1,0 +1,75 @@
+/* #region common */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* #endregion common */
+
+
+/* #region utilities */
+.container {
+    width: 1140px;
+    max-width: 80%;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+[class^="col_"] {
+    padding: 0 1rem;
+}
+
+.col_12 {
+    width: 100%;
+}
+/* #endregion utilities */
+
+
+/* #region debug */
+.debug * {
+    border: 1px dashed black;
+}
+.debug header {
+    height: 80px;
+}
+
+.debug [class^="col_"] {
+    height: 120px;
+}
+/* #endregion debug */
+
+/* #region color */
+:root {
+    --rl-primary: #9792e4;
+    --rl-secondary: #b5ddff;
+    --rl-tertiary: #fdc15f;
+    --rl-header: #0084fd;
+    --rl-main: #ffffff;
+    --rl--footer: #333333;
+}
+/* #region color */
+
+
+/* #region header */
+header {
+    background-color: var(--rl-header);
+}
+/* #endregion header */
+
+
+/* #region main */
+
+/* #endregion main */
+
+
+/* #region footer */
+
+/* #endregion footer */
+
+/* #region mediaQ */
+
+/* #endregion mediaQ */
