@@ -317,6 +317,42 @@ main section:nth-child(even) {
     padding: 0.5rem 0;
 }
 
+
+/* SECTION ABOUTUS */
+#about_us [class^="col_"] {
+    position: relative;
+}
+
+#about_us h2 {
+    color: var(--rl-primary);
+    font-size: 2rem;
+}
+
+#about_us p {
+    color: var(--rl-dark);
+}
+
+#about_us img {
+    border-radius: 50%;
+}
+
+#about_us [class^="col_"] > i {
+    color: var(--rl-primary);
+    position: absolute;
+    top: 0;
+    right: 2rem;
+}
+
+#about_us a i {
+    padding-right: 0.25rem;
+}
+
+#about_us a {
+    color: var(--rl-main);
+    background-color: var(--rl-primary) ;
+    padding: 0.25rem 0.8rem;
+    border-radius: 1rem;
+}
 /* #endregion main */
 
 
