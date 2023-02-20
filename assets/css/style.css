@@ -286,7 +286,36 @@ main section:nth-child(even) {
 }
 
 /* SECTIO BENEFITS */
+#benefit [class^="col_"] {
+    background-color: var(--rl-main);
+}
 
+#benefit [class^="col_"] h2,
+#benefit [class^="col_"] h6 {
+    color: var(--rl-primary);
+    padding: 0.1rem 0;
+}
+
+#benefit [class^="col_"] h2 {
+    font-size: 2rem;
+}
+
+#benefit [class^="col_"] p {
+    color: var(--rl-dark);
+    margin-bottom: 1rem;
+}
+
+#benefit [class^="col_"] a {
+    color: var(--rl-main);
+    background-color: var(--rl-primary);
+    padding: 0.3rem 0.9rem;
+    border-radius: 1rem;
+}
+
+#benefit .container > h2 {
+    text-align: center;
+    padding: 0.5rem 0;
+}
 
 /* #endregion main */
 
