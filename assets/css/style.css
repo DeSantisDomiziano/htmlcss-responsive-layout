@@ -20,10 +20,6 @@ ul {
 a {
     text-decoration: none;
 }
-
-i {
-    width: 100%;
-}
 /* #endregion common */
 
 
@@ -228,6 +224,10 @@ main section:nth-child(even) {
     color: var(--rl-header);
 }
 
+#demo i {
+    width: 100%;
+}
+
 #demo p {
     text-align: center;
 }
@@ -261,6 +261,33 @@ main section:nth-child(even) {
     border-radius: 50%;
     width: 35px;
 }
+
+/* SECTION TESTIMONIALS */
+#testimonials {
+    text-align: center;
+    color: var(--rl-dark);
+}
+
+#testimonials h2 {
+    color: var(--rl-primary);
+    padding: 0.8rem 0;
+}
+
+
+#testimonials [class^="col_"] {
+    background-color: var(--rl-primary);
+    color: var(--rl-main);
+}
+
+#testimonials img {
+    border-radius: 50%;
+    width: 90%;
+    aspect-ratio: 1;
+}
+
+/* SECTIO BENEFITS */
+
+
 /* #endregion main */
 
 
@@ -291,6 +318,11 @@ main section:nth-child(even) {
 
     .col_md_2 {
         width: calc((100% / 12 * 2) - 0.5rem);
+    }
+    
+    /* ADATTAMENTI TESTIMONIALS */
+    #testimonials h3 {
+        text-align: start;
     }
     
 }
@@ -357,7 +389,6 @@ main section:nth-child(even) {
     #demo .w_50{
         width: 50%;
     }
-
     
 }
 /* #endregion mediaQ */
