@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+body {
+    color: var(--rl-main);
+}
+
 img {
     max-width: 100%;
 }
@@ -94,8 +98,9 @@ i {
     --rl-effect-header: #b5ddff;
     --rl-main: #ffffff;
     --rl--footer: #333333;
+    --rl-dark: #181818;
 }
-/* #region color */
+/* #endregion color */
 
 
 /* #region header */
@@ -242,6 +247,19 @@ main section:nth-child(even) {
     position: relative;
     top: 22px;
     padding-bottom: 0;
+}
+
+/* SECTION PLANNING */
+#planning .row [class^="col_"]:nth-child(even) {
+    color: var(--rl-dark);
+    background-color: var(--rl-main);
+    text-align: center;
+}
+
+#planning i {
+    background-color: var(--rl-primary);
+    border-radius: 50%;
+    width: 35px;
 }
 /* #endregion main */
 
