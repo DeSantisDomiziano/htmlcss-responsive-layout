@@ -353,12 +353,39 @@ main section:nth-child(even) {
     padding: 0.25rem 0.8rem;
     border-radius: 1rem;
 }
+
+/* SECTION CALL TO ACTION */
+#call_to_action .container {
+    margin-bottom: 0;
+}
+
+#call_to_action {
+    text-align: center;
+}
+
+#call_to_action h2 {
+    font-size: 3.5rem;
+    color: var(--rl-tertiary);
+}
+
+#call_to_action a {
+    color: var(--rl-main);
+}
+
+#call_to_action .under_ {
+    text-decoration: underline;
+}
+
 /* #endregion main */
 
 
 /* #region footer */
 #site_footer {
     background-color: var(--rl--footer);
+}
+
+#site_footer .container {
+    margin: 0 auto;
 }
 /* #endregion footer */
 
