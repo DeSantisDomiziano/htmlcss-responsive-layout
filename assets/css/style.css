@@ -376,16 +376,26 @@ main section:nth-child(even) {
     text-decoration: underline;
 }
 
+#call_to_action i {
+    font-size: 0.4rem;
+}
+
 /* #endregion main */
 
 
 /* #region footer */
 #site_footer {
     background-color: var(--rl--footer);
+    text-align: center;
 }
 
 #site_footer .container {
     margin: 0 auto;
+}
+
+#site_footer a {
+    color: var(--rl-primary);
+    text-decoration: underline;
 }
 /* #endregion footer */
 
